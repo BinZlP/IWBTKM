@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="gameFunction.c" />
+    <ClCompile Include="gameManage.c" />
+    <ClCompile Include="getStart.c" />
+    <ClCompile Include="gameShop.c" />
+    <ClCompile Include="gameMain.c" />
+    <ClCompile Include="gameMain2.c" />
+    <ClCompile Include="gameMap6.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMap1.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="gameEnding.c" />
+    <ClCompile Include="gameMap2.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMap4.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMap5.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMap3.c">
+      <Filter>Maps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{46281f62-d093-4bf5-b4a1-42c53ff07283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{5a370fc6-842f-43e3-b6ae-293f6fe48fa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameFunc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="basicTexture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMove.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
